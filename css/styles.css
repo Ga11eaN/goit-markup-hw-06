@@ -511,6 +511,55 @@ header p {
   background-color: var(--accent-color);
 }
 
+.bottom .subscribe {
+  display: inline-block;
+  width: 570px;
+  margin-left: 93px;
+  padding-top: 12px;
+  color: var(--main-background);
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bottom .subscribe-block {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.bottom .button {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom .icon-subscribe {
+  margin-left: 10px;
+  fill: var(--main-background);
+}
+
+.bottom .mail {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--secondary-background);
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bottom .mail::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* modal window */
 
 .backdrop {
